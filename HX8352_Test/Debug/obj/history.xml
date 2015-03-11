@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Projects\ARM\HX8352_Test\stm_lib -I..\..\..\..\..\Projects\ARM\HX8352_Test\cmsis -I..\..\..\..\..\Projects\ARM\HX8352_Test\cmsis_boot -I..\..\..\..\..\Projects\ARM\HX8352_Test\stm_lib\inc -I..\..\..\..\..\Projects\ARM -I..\..\..\..\..\Projects\ARM\HX8352_Test -I..\..\..\..\..\Projects">
+      <target file="stm32f10x_rcc.o" lastModified="14c06a65d5d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14c05abcb5d"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="14c06a6587d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="14c05aba3fe"/>
+      </target>
+      <target file="misc.o" lastModified="14c06a65ea4">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="14c05ac0749"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14c06a65764">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14c05aba444"/>
+      </target>
+      <target file="main.o" lastModified="14c06a65b2b">
+         <source file="..\..\..\main.c" lastModified="14c06a64f68"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14c06a65a12">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14c05abd853"/>
+      </target>
+   </processor>
+</history>

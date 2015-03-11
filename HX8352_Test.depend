@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1426024277 source:c:\projects\arm\hx8352_test\cmsis_boot\system_stm32f10x.c
+	"stm32f10x.h"
+
+1426024277 c:\projects\arm\hx8352_test\cmsis_boot\stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1426024277 c:\projects\arm\hx8352_test\cmsis\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1426024277 c:\projects\arm\hx8352_test\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1426024277 c:\projects\arm\hx8352_test\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1426024277 c:\projects\arm\hx8352_test\cmsis_boot\system_stm32f10x.h
+
+1426031845 c:\projects\arm\hx8352_test\cmsis_boot\stm32f10x_conf.h
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+	"misc.h"
+
+1426024290 c:\projects\arm\hx8352_test\stm_lib\inc\stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1426024287 c:\projects\arm\hx8352_test\stm_lib\inc\stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1426024302 c:\projects\arm\hx8352_test\stm_lib\inc\misc.h
+	"stm32f10x.h"
+
+1426040704 source:c:\projects\arm\hx8352_test\main.c
+	"stm32f10x.h"
+	"NGL.h"
+
+1426031688 c:\projects\arm\hx8352_test\ngl.h
+	"NGL_types.h"
+
+1426031688 c:\projects\arm\hx8352_test\ngl_types.h
+	"stm32f10x.h"
+
+1426024302 source:c:\projects\arm\hx8352_test\stm_lib\src\misc.c
+	"misc.h"
+
+1426024290 source:c:\projects\arm\hx8352_test\stm_lib\src\stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1426024287 source:c:\projects\arm\hx8352_test\stm_lib\src\stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1426024276 source:c:\projects\arm\hx8352_test\cmsis_boot\startup\startup_stm32f10x_md.c
+

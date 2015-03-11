@@ -1,0 +1,656 @@
+Archive member included because of file (symbol)
+
+.\libNGL.a(LCD_GPIO.o)        .objs\main.o (LCD_Set_RESET_Pin)
+.\libNGL.a(LCD_MAL.o)         .objs\main.o (NGL_LCD_Clear_AllScreen)
+.\libNGL.a(Graphics_Primitive.o)
+                              .objs\main.o (NGL_GP_DrawFillRect)
+.\libNGL.a(LCD_HAL.o)         .\libNGL.a(LCD_MAL.o) (LCD)
+.\libNGL.a(HX8352.o)          .\libNGL.a(LCD_HAL.o) (HX8352)
+.\libNGL.a(SSD1289.o)         .\libNGL.a(LCD_HAL.o) (SSD1289)
+.\libNGL.a(R61581.o)          .\libNGL.a(LCD_HAL.o) (R61581)
+
+Allocating common symbols
+Common symbol       size              file
+
+CS_LCD              0x8               .\libNGL.a(LCD_GPIO.o)
+HC573_LE            0x8               .\libNGL.a(LCD_GPIO.o)
+RES_LCD             0x8               .\libNGL.a(LCD_GPIO.o)
+RD_LCD              0x8               .\libNGL.a(LCD_GPIO.o)
+LCD_Struct          0x4               .objs\main.o
+RS_LCD              0x8               .\libNGL.a(LCD_GPIO.o)
+LCD_GPIO_DataPort   0x4               .\libNGL.a(LCD_GPIO.o)
+WR_LCD              0x8               .\libNGL.a(LCD_GPIO.o)
+TE_Input            0x8               .\libNGL.a(LCD_GPIO.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 .objs\cmsis_boot\system_stm32f10x.o
+ .data          0x00000000       0x14 .objs\cmsis_boot\system_stm32f10x.o
+ .bss           0x00000000        0x0 .objs\cmsis_boot\system_stm32f10x.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x148 .objs\cmsis_boot\system_stm32f10x.o
+ .text          0x00000000        0x0 .objs\main.o
+ .data          0x00000000        0x0 .objs\main.o
+ .bss           0x00000000        0x0 .objs\main.o
+ .text          0x00000000        0x0 .objs\stm_lib\src\misc.o
+ .data          0x00000000        0x0 .objs\stm_lib\src\misc.o
+ .bss           0x00000000        0x0 .objs\stm_lib\src\misc.o
+ .text.NVIC_PriorityGroupConfig
+                0x00000000       0x28 .objs\stm_lib\src\misc.o
+ .text.NVIC_Init
+                0x00000000       0xe8 .objs\stm_lib\src\misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x2c .objs\stm_lib\src\misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x54 .objs\stm_lib\src\misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x4c .objs\stm_lib\src\misc.o
+ .debug_info    0x00000000      0x5b7 .objs\stm_lib\src\misc.o
+ .debug_abbrev  0x00000000      0x12b .objs\stm_lib\src\misc.o
+ .debug_loc     0x00000000      0x118 .objs\stm_lib\src\misc.o
+ .debug_aranges
+                0x00000000       0x40 .objs\stm_lib\src\misc.o
+ .debug_ranges  0x00000000       0x30 .objs\stm_lib\src\misc.o
+ .debug_line    0x00000000      0x1f3 .objs\stm_lib\src\misc.o
+ .debug_str     0x00000000      0x34d .objs\stm_lib\src\misc.o
+ .comment       0x00000000       0x39 .objs\stm_lib\src\misc.o
+ .ARM.attributes
+                0x00000000       0x33 .objs\stm_lib\src\misc.o
+ .debug_frame   0x00000000       0x9c .objs\stm_lib\src\misc.o
+ .text          0x00000000        0x0 .objs\stm_lib\src\stm32f10x_gpio.o
+ .data          0x00000000        0x0 .objs\stm_lib\src\stm32f10x_gpio.o
+ .bss           0x00000000        0x0 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x128 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_AFIODeInit
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x2c .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x3c .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x1c .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x3c .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x1c .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x30 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x44 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x54 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_EventOutputCmd
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_PinRemapConfig
+                0x00000000      0x120 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_EXTILineConfig
+                0x00000000       0xb0 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_gpio.o
+ .text          0x00000000        0x0 .objs\stm_lib\src\stm32f10x_rcc.o
+ .data          0x00000000       0x14 .objs\stm_lib\src\stm32f10x_rcc.o
+ .bss           0x00000000        0x0 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x9c .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x88 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x64 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x48 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x48 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x40 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x40 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x40 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x44 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x60 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_USBCLKConfig
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x40 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x60 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x2c .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000      0x1d4 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000       0x54 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_APB2PeriphClockCmd
+                0x00000000       0x54 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x54 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x54 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x54 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x90 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x24 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x40 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_info    0x00000000      0x955 .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_abbrev  0x00000000      0x1be .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_loc     0x00000000      0x6dc .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_aranges
+                0x00000000      0x118 .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_ranges  0x00000000      0x108 .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_line    0x00000000      0x46c .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_str     0x00000000      0x5a9 .objs\stm_lib\src\stm32f10x_rcc.o
+ .comment       0x00000000       0x39 .objs\stm_lib\src\stm32f10x_rcc.o
+ .ARM.attributes
+                0x00000000       0x33 .objs\stm_lib\src\stm32f10x_rcc.o
+ .debug_frame   0x00000000      0x388 .objs\stm_lib\src\stm32f10x_rcc.o
+ .text          0x00000000        0x0 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .data          0x00000000        0x0 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .bss           0x00000000        0x0 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .text          0x00000000        0x0 .\libNGL.a(LCD_GPIO.o)
+ .bss           0x00000000        0x0 .\libNGL.a(LCD_GPIO.o)
+ .text.LCD_Set_RD_Pin
+                0x00000000       0x28 .\libNGL.a(LCD_GPIO.o)
+ .text          0x00000000        0x0 .\libNGL.a(LCD_MAL.o)
+ .data          0x00000000        0x0 .\libNGL.a(LCD_MAL.o)
+ .bss           0x00000000        0x0 .\libNGL.a(LCD_MAL.o)
+ .text.NGL_LCD_SetCursor
+                0x00000000       0x44 .\libNGL.a(LCD_MAL.o)
+ .text.NGL_LCD_PutPixel
+                0x00000000       0x5c .\libNGL.a(LCD_MAL.o)
+ .text.NGL_LCD_GetPixels
+                0x00000000       0x64 .\libNGL.a(LCD_MAL.o)
+ .text          0x00000000        0x0 .\libNGL.a(Graphics_Primitive.o)
+ .data          0x00000000        0x4 .\libNGL.a(Graphics_Primitive.o)
+ .bss           0x00000000        0x1 .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_SetAntialiasingLine_State
+                0x00000000       0x2c .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_AntialiasingParam
+                0x00000000       0x2c .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_DrawPixel
+                0x00000000       0x54 .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_DrawLine
+                0x00000000      0x1cc .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_DrawCircle
+                0x00000000      0x184 .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_DrawBeveledRect
+                0x00000000      0x1f4 .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_DrawFillBeveledRect
+                0x00000000      0x2ec .\libNGL.a(Graphics_Primitive.o)
+ .text          0x00000000        0x0 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_SetRotation
+                0x00000000       0x84 .\libNGL.a(LCD_HAL.o)
+ .text          0x00000000        0x0 .\libNGL.a(HX8352.o)
+ .bss           0x00000000        0x0 .\libNGL.a(HX8352.o)
+ .text          0x00000000        0x0 .\libNGL.a(SSD1289.o)
+ .bss           0x00000000        0x0 .\libNGL.a(SSD1289.o)
+ .text          0x00000000        0x0 .\libNGL.a(R61581.o)
+ .bss           0x00000000        0x0 .\libNGL.a(R61581.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00020000         xr
+ram              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20005000                _eram = 0x20005000
+
+.text           0x08000000     0x1e00
+ *(.isr_vector .isr_vector.*)
+ .isr_vector    0x08000000      0x10c .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+                0x08000000                g_pfnVectors
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.SystemInit
+                0x0800010c       0xa8 .objs\cmsis_boot\system_stm32f10x.o
+                0x0800010c                SystemInit
+ .text.SetSysClock
+                0x080001b4        0xc .objs\cmsis_boot\system_stm32f10x.o
+ .text.SetSysClockTo72
+                0x080001c0      0x1ac .objs\cmsis_boot\system_stm32f10x.o
+ .text.main     0x0800036c      0x1ac .objs\main.o
+                0x0800036c                main
+ .text.delay_ms
+                0x08000518       0x30 .objs\main.o
+                0x08000518                delay_ms
+ .text.GPIO_Init
+                0x08000548      0x1b0 .objs\stm_lib\src\stm32f10x_gpio.o
+                0x08000548                GPIO_Init
+ .text.GPIO_SetBits
+                0x080006f8       0x1c .objs\stm_lib\src\stm32f10x_gpio.o
+                0x080006f8                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x08000714       0x1c .objs\stm_lib\src\stm32f10x_gpio.o
+                0x08000714                GPIO_ResetBits
+ .text.Default_Reset_Handler
+                0x08000730       0x6c .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+                0x08000730                Default_Reset_Handler
+                0x08000730                Reset_Handler
+ .text.Default_Handler
+                0x0800079c        0x8 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+                0x0800079c                EXTI2_IRQHandler
+                0x0800079c                DebugMon_Handler
+                0x0800079c                TIM1_CC_IRQHandler
+                0x0800079c                HardFault_Handler
+                0x0800079c                SysTick_Handler
+                0x0800079c                PVD_IRQHandler
+                0x0800079c                PendSV_Handler
+                0x0800079c                NMI_Handler
+                0x0800079c                EXTI3_IRQHandler
+                0x0800079c                EXTI0_IRQHandler
+                0x0800079c                I2C2_EV_IRQHandler
+                0x0800079c                UsageFault_Handler
+                0x0800079c                ADC1_2_IRQHandler
+                0x0800079c                SPI1_IRQHandler
+                0x0800079c                TAMPER_IRQHandler
+                0x0800079c                DMA1_Channel4_IRQHandler
+                0x0800079c                USART3_IRQHandler
+                0x0800079c                RTC_IRQHandler
+                0x0800079c                DMA1_Channel7_IRQHandler
+                0x0800079c                CAN1_RX1_IRQHandler
+                0x0800079c                TIM4_IRQHandler
+                0x0800079c                I2C1_EV_IRQHandler
+                0x0800079c                DMA1_Channel6_IRQHandler
+                0x0800079c                TIM3_IRQHandler
+                0x0800079c                RCC_IRQHandler
+                0x0800079c                TIM1_TRG_COM_IRQHandler
+                0x0800079c                DMA1_Channel1_IRQHandler
+                0x0800079c                EXTI15_10_IRQHandler
+                0x0800079c                EXTI9_5_IRQHandler
+                0x0800079c                SPI2_IRQHandler
+                0x0800079c                MemManage_Handler
+                0x0800079c                SVC_Handler
+                0x0800079c                DMA1_Channel5_IRQHandler
+                0x0800079c                EXTI4_IRQHandler
+                0x0800079c                USB_LP_CAN1_RX0_IRQHandler
+                0x0800079c                USB_HP_CAN1_TX_IRQHandler
+                0x0800079c                DMA1_Channel3_IRQHandler
+                0x0800079c                TIM1_UP_IRQHandler
+                0x0800079c                WWDG_IRQHandler
+                0x0800079c                TIM2_IRQHandler
+                0x0800079c                TIM1_BRK_IRQHandler
+                0x0800079c                EXTI1_IRQHandler
+                0x0800079c                RTCAlarm_IRQHandler
+                0x0800079c                USART2_IRQHandler
+                0x0800079c                I2C2_ER_IRQHandler
+                0x0800079c                DMA1_Channel2_IRQHandler
+                0x0800079c                CAN1_SCE_IRQHandler
+                0x0800079c                FLASH_IRQHandler
+                0x0800079c                BusFault_Handler
+                0x0800079c                USART1_IRQHandler
+                0x0800079c                I2C1_ER_IRQHandler
+                0x0800079c                USBWakeUp_IRQHandler
+ .text.LCD_Set_RESET_Pin
+                0x080007a4       0x28 .\libNGL.a(LCD_GPIO.o)
+                0x080007a4                LCD_Set_RESET_Pin
+ .text.LCD_Set_RS_Pin
+                0x080007cc       0x28 .\libNGL.a(LCD_GPIO.o)
+                0x080007cc                LCD_Set_RS_Pin
+ .text.LCD_Set_WR_Pin
+                0x080007f4       0x28 .\libNGL.a(LCD_GPIO.o)
+                0x080007f4                LCD_Set_WR_Pin
+ .text.LCD_Set_CS_Pin
+                0x0800081c       0x28 .\libNGL.a(LCD_GPIO.o)
+                0x0800081c                LCD_Set_CS_Pin
+ .text.LCD_SetDataPort
+                0x08000844       0x2c .\libNGL.a(LCD_GPIO.o)
+                0x08000844                LCD_SetDataPort
+ .text.PutPixelsFast
+                0x08000870       0x80 .\libNGL.a(LCD_MAL.o)
+ .text.NGL_LCD_SetFullScreen
+                0x080008f0       0x24 .\libNGL.a(LCD_MAL.o)
+                0x080008f0                NGL_LCD_SetFullScreen
+ .text.NGL_LCD_ClearArea
+                0x08000914       0x4c .\libNGL.a(LCD_MAL.o)
+                0x08000914                NGL_LCD_ClearArea
+ .text.NGL_LCD_Clear_AllScreen
+                0x08000960       0x28 .\libNGL.a(LCD_MAL.o)
+                0x08000960                NGL_LCD_Clear_AllScreen
+ .text.NGL_GP_Draw_Vertical_Line
+                0x08000988       0xc0 .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_Draw_Horizontal_Line
+                0x08000a48       0xbc .\libNGL.a(Graphics_Primitive.o)
+ .text.NGL_GP_DrawRect
+                0x08000b04       0x6c .\libNGL.a(Graphics_Primitive.o)
+                0x08000b04                NGL_GP_DrawRect
+ .text.NGL_GP_DrawFillRect
+                0x08000b70       0x3c .\libNGL.a(Graphics_Primitive.o)
+                0x08000b70                NGL_GP_DrawFillRect
+ .text.NGL_LCD_Set_ConnectionType_DataBusBits_ColorBits
+                0x08000bac       0xf4 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_ControllerInit
+                0x08000ca0       0x40 .\libNGL.a(LCD_HAL.o)
+                0x08000ca0                NGL_LCD_ControllerInit
+ .text.NGL_LCD_GetController_FromIndex
+                0x08000ce0       0x40 .\libNGL.a(LCD_HAL.o)
+                0x08000ce0                NGL_LCD_GetController_FromIndex
+ .text.NGL_LCD_FSMC_WriteCommand
+                0x08000d20       0x1c .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_FSMC_WriteData
+                0x08000d3c       0x20 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_FSMC_ReadData
+                0x08000d5c       0x18 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_GPIO_WriteCommand
+                0x08000d74       0x64 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_GPIO_WriteData
+                0x08000dd8       0x48 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_GPIO_WriteData_16bpp_8b
+                0x08000e20       0x78 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_GPIO_WriteData_18bpp_8b
+                0x08000e98       0xa8 .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_GPIO_WriteData_18bpp_16b
+                0x08000f40       0x7c .\libNGL.a(LCD_HAL.o)
+ .text.NGL_LCD_WriteRegister
+                0x08000fbc       0x30 .\libNGL.a(LCD_HAL.o)
+                0x08000fbc                NGL_LCD_WriteRegister
+ .text.HX8352_WriteRAM_Prepare
+                0x08000fec       0x14 .\libNGL.a(HX8352.o)
+ .text.HX8352_Init
+                0x08001000      0x1d0 .\libNGL.a(HX8352.o)
+ .text.HX8352_SetRotation
+                0x080011d0       0x50 .\libNGL.a(HX8352.o)
+ .text.HX8352_SetCursor
+                0x08001220       0x88 .\libNGL.a(HX8352.o)
+ .text.HX8352_SetArea
+                0x080012a8       0x9c .\libNGL.a(HX8352.o)
+ .text.HX8352_GetPixels
+                0x08001344       0x18 .\libNGL.a(HX8352.o)
+ .text.SSD1289_WriteRAM_Prepare
+                0x0800135c       0x14 .\libNGL.a(SSD1289.o)
+ .text.SSD1289_Init
+                0x08001370      0x2ec .\libNGL.a(SSD1289.o)
+ .text.SSD1289_SetRotation
+                0x0800165c      0x11c .\libNGL.a(SSD1289.o)
+ .text.SSD1289_SetCursor
+                0x08001778       0x3c .\libNGL.a(SSD1289.o)
+ .text.SSD1289_SetArea
+                0x080017b4       0xb0 .\libNGL.a(SSD1289.o)
+ .text.SSD1289_GetPixels
+                0x08001864       0x18 .\libNGL.a(SSD1289.o)
+ .text.R61581_WriteRAM_Prepare
+                0x0800187c       0x14 .\libNGL.a(R61581.o)
+ .text.R61581_Init
+                0x08001890      0x324 .\libNGL.a(R61581.o)
+ .text.R61581_SetRotation
+                0x08001bb4       0x80 .\libNGL.a(R61581.o)
+ .text.R61581_SetCursor
+                0x08001c34       0x70 .\libNGL.a(R61581.o)
+ .text.R61581_SetArea
+                0x08001ca4       0x98 .\libNGL.a(R61581.o)
+ .text.R61581_GetPixels
+                0x08001d3c       0xc4 .\libNGL.a(R61581.o)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+
+.vfp11_veneer   0x08001e00        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08001e00        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08001e00        0x0
+ .iplt          0x00000000        0x0 .objs\cmsis_boot\system_stm32f10x.o
+
+.rel.dyn        0x08001e00        0x0
+ .rel.iplt      0x00000000        0x0 .objs\cmsis_boot\system_stm32f10x.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08001e00                . = ALIGN (0x4)
+                0x08001e00                _etext = .
+                0x08001e00                _sidata = .
+
+.data           0x20000000       0xbc load address 0x08001e00
+                0x20000000                _sdata = .
+ *(.data .data.*)
+ .data          0x20000000        0x2 .\libNGL.a(LCD_GPIO.o)
+                0x20000000                LCD_GPIO_portMask
+ *fill*         0x20000002        0x2 
+ .data          0x20000004        0x4 .\libNGL.a(LCD_HAL.o)
+                0x20000004                LCD
+ .data          0x20000008       0x3c .\libNGL.a(HX8352.o)
+                0x20000008                HX8352
+ .data          0x20000044       0x3c .\libNGL.a(SSD1289.o)
+                0x20000044                SSD1289
+ .data          0x20000080       0x3c .\libNGL.a(R61581.o)
+                0x20000080                R61581
+                0x200000bc                . = ALIGN (0x4)
+                0x200000bc                _edata = .
+
+.igot.plt       0x200000bc        0x0 load address 0x08001ebc
+ .igot.plt      0x00000000        0x0 .objs\cmsis_boot\system_stm32f10x.o
+
+.bss            0x200000bc       0x44 load address 0x08001ebc
+                0x200000bc                _sbss = .
+ *(.bss .bss.*)
+ .bss           0x200000bc        0x4 .\libNGL.a(LCD_HAL.o)
+                0x200000bc                NGL_Delay
+ *(COMMON)
+ COMMON         0x200000c0        0x4 .objs\main.o
+                0x200000c0                LCD_Struct
+ COMMON         0x200000c4       0x3c .\libNGL.a(LCD_GPIO.o)
+                0x200000c4                CS_LCD
+                0x200000cc                HC573_LE
+                0x200000d4                RES_LCD
+                0x200000dc                RD_LCD
+                0x200000e4                RS_LCD
+                0x200000ec                LCD_GPIO_DataPort
+                0x200000f0                WR_LCD
+                0x200000f8                TE_Input
+                0x20000100                . = ALIGN (0x4)
+                0x20000100                _ebss = .
+
+.co_stack       0x20000100      0x400 load address 0x08001f00
+                0x20000100                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20000100      0x400 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+                0x20000100                pulStack
+                0x20000500                . = ALIGN (0x4)
+                0x20000500                _end = .
+LOAD .objs\cmsis_boot\system_stm32f10x.o
+LOAD .objs\main.o
+LOAD .objs\stm_lib\src\misc.o
+LOAD .objs\stm_lib\src\stm32f10x_gpio.o
+LOAD .objs\stm_lib\src\stm32f10x_rcc.o
+LOAD .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+LOAD .\libNGL.a
+START GROUP
+LOAD c:/program files/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-m\libgcc.a
+LOAD c:/program files/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
+LOAD c:/program files/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/program files/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libm.a
+LOAD c:/program files/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
+END GROUP
+OUTPUT(.\HX8352_Test.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x34bc
+ .debug_info    0x00000000      0x4e8 .objs\cmsis_boot\system_stm32f10x.o
+ .debug_info    0x000004e8      0x572 .objs\main.o
+ .debug_info    0x00000a5a      0x769 .objs\stm_lib\src\stm32f10x_gpio.o
+ .debug_info    0x000011c3      0x103 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .debug_info    0x000012c6      0x318 .\libNGL.a(LCD_GPIO.o)
+ .debug_info    0x000015de      0x499 .\libNGL.a(LCD_MAL.o)
+ .debug_info    0x00001a77      0x82f .\libNGL.a(Graphics_Primitive.o)
+ .debug_info    0x000022a6      0x5c0 .\libNGL.a(LCD_HAL.o)
+ .debug_info    0x00002866      0x438 .\libNGL.a(HX8352.o)
+ .debug_info    0x00002c9e      0x46c .\libNGL.a(SSD1289.o)
+ .debug_info    0x0000310a      0x3b2 .\libNGL.a(R61581.o)
+
+.debug_abbrev   0x00000000      0xe2f
+ .debug_abbrev  0x00000000      0x150 .objs\cmsis_boot\system_stm32f10x.o
+ .debug_abbrev  0x00000150      0x158 .objs\main.o
+ .debug_abbrev  0x000002a8      0x1cc .objs\stm_lib\src\stm32f10x_gpio.o
+ .debug_abbrev  0x00000474       0xab .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .debug_abbrev  0x0000051f       0xb9 .\libNGL.a(LCD_GPIO.o)
+ .debug_abbrev  0x000005d8      0x13f .\libNGL.a(LCD_MAL.o)
+ .debug_abbrev  0x00000717      0x1a8 .\libNGL.a(Graphics_Primitive.o)
+ .debug_abbrev  0x000008bf      0x1bf .\libNGL.a(LCD_HAL.o)
+ .debug_abbrev  0x00000a7e      0x12c .\libNGL.a(HX8352.o)
+ .debug_abbrev  0x00000baa      0x13b .\libNGL.a(SSD1289.o)
+ .debug_abbrev  0x00000ce5      0x14a .\libNGL.a(R61581.o)
+
+.debug_loc      0x00000000      0x580
+ .debug_loc     0x00000000       0xc8 .objs\cmsis_boot\system_stm32f10x.o
+ .debug_loc     0x000000c8       0x70 .objs\main.o
+ .debug_loc     0x00000138      0x3e4 .objs\stm_lib\src\stm32f10x_gpio.o
+ .debug_loc     0x0000051c       0x64 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+
+.debug_aranges  0x00000000      0x390
+ .debug_aranges
+                0x00000000       0x38 .objs\cmsis_boot\system_stm32f10x.o
+ .debug_aranges
+                0x00000038       0x28 .objs\main.o
+ .debug_aranges
+                0x00000060       0xa8 .objs\stm_lib\src\stm32f10x_gpio.o
+ .debug_aranges
+                0x00000108       0x28 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .debug_aranges
+                0x00000130       0x48 .\libNGL.a(LCD_GPIO.o)
+ .debug_aranges
+                0x00000178       0x50 .\libNGL.a(LCD_MAL.o)
+ .debug_aranges
+                0x000001c8       0x70 .\libNGL.a(Graphics_Primitive.o)
+ .debug_aranges
+                0x00000238       0x80 .\libNGL.a(LCD_HAL.o)
+ .debug_aranges
+                0x000002b8       0x48 .\libNGL.a(HX8352.o)
+ .debug_aranges
+                0x00000300       0x48 .\libNGL.a(SSD1289.o)
+ .debug_aranges
+                0x00000348       0x48 .\libNGL.a(R61581.o)
+
+.debug_ranges   0x00000000      0x2e0
+ .debug_ranges  0x00000000       0x28 .objs\cmsis_boot\system_stm32f10x.o
+ .debug_ranges  0x00000028       0x18 .objs\main.o
+ .debug_ranges  0x00000040       0x98 .objs\stm_lib\src\stm32f10x_gpio.o
+ .debug_ranges  0x000000d8       0x18 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .debug_ranges  0x000000f0       0x38 .\libNGL.a(LCD_GPIO.o)
+ .debug_ranges  0x00000128       0x40 .\libNGL.a(LCD_MAL.o)
+ .debug_ranges  0x00000168       0x60 .\libNGL.a(Graphics_Primitive.o)
+ .debug_ranges  0x000001c8       0x70 .\libNGL.a(LCD_HAL.o)
+ .debug_ranges  0x00000238       0x38 .\libNGL.a(HX8352.o)
+ .debug_ranges  0x00000270       0x38 .\libNGL.a(SSD1289.o)
+ .debug_ranges  0x000002a8       0x38 .\libNGL.a(R61581.o)
+
+.debug_line     0x00000000     0x17ea
+ .debug_line    0x00000000      0x218 .objs\cmsis_boot\system_stm32f10x.o
+ .debug_line    0x00000218      0x1eb .objs\main.o
+ .debug_line    0x00000403      0x35e .objs\stm_lib\src\stm32f10x_gpio.o
+ .debug_line    0x00000761       0x7d .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .debug_line    0x000007de      0x17b .\libNGL.a(LCD_GPIO.o)
+ .debug_line    0x00000959      0x1e4 .\libNGL.a(LCD_MAL.o)
+ .debug_line    0x00000b3d      0x38b .\libNGL.a(Graphics_Primitive.o)
+ .debug_line    0x00000ec8      0x28a .\libNGL.a(LCD_HAL.o)
+ .debug_line    0x00001152      0x215 .\libNGL.a(HX8352.o)
+ .debug_line    0x00001367      0x22d .\libNGL.a(SSD1289.o)
+ .debug_line    0x00001594      0x256 .\libNGL.a(R61581.o)
+
+.debug_str      0x00000000      0xf3a
+ .debug_str     0x00000000      0x21d .objs\cmsis_boot\system_stm32f10x.o
+                                0x27e (size before relaxing)
+ .debug_str     0x0000021d      0x24c .objs\main.o
+                                0x420 (size before relaxing)
+ .debug_str     0x00000469      0x273 .objs\stm_lib\src\stm32f10x_gpio.o
+                                0x4a8 (size before relaxing)
+ .debug_str     0x000006dc       0x8b .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+                                 0xce (size before relaxing)
+ .debug_str     0x00000767      0x18f .\libNGL.a(LCD_GPIO.o)
+                                0x258 (size before relaxing)
+ .debug_str     0x000008f6       0xc0 .\libNGL.a(LCD_MAL.o)
+                                0x39e (size before relaxing)
+ .debug_str     0x000009b6      0x1df .\libNGL.a(Graphics_Primitive.o)
+                                0x4dc (size before relaxing)
+ .debug_str     0x00000b95      0x1db .\libNGL.a(LCD_HAL.o)
+                                0x510 (size before relaxing)
+ .debug_str     0x00000d70       0x94 .\libNGL.a(HX8352.o)
+                                0x381 (size before relaxing)
+ .debug_str     0x00000e04       0x9c .\libNGL.a(SSD1289.o)
+                                0x38a (size before relaxing)
+ .debug_str     0x00000ea0       0x9a .\libNGL.a(R61581.o)
+                                0x353 (size before relaxing)
+
+.comment        0x00000000       0xa8
+ .comment       0x00000000       0x38 .objs\cmsis_boot\system_stm32f10x.o
+                                 0x39 (size before relaxing)
+ .comment       0x00000000       0x39 .objs\main.o
+ .comment       0x00000000       0x39 .objs\stm_lib\src\stm32f10x_gpio.o
+ .comment       0x00000000       0x39 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .comment       0x00000038       0x70 .\libNGL.a(LCD_GPIO.o)
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 .\libNGL.a(LCD_MAL.o)
+ .comment       0x00000000       0x71 .\libNGL.a(Graphics_Primitive.o)
+ .comment       0x00000000       0x71 .\libNGL.a(LCD_HAL.o)
+ .comment       0x00000000       0x71 .\libNGL.a(HX8352.o)
+ .comment       0x00000000       0x71 .\libNGL.a(SSD1289.o)
+ .comment       0x00000000       0x71 .\libNGL.a(R61581.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 .objs\cmsis_boot\system_stm32f10x.o
+ .ARM.attributes
+                0x00000033       0x33 .objs\main.o
+ .ARM.attributes
+                0x00000066       0x33 .objs\stm_lib\src\stm32f10x_gpio.o
+ .ARM.attributes
+                0x00000099       0x33 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .ARM.attributes
+                0x000000cc       0x33 .\libNGL.a(LCD_GPIO.o)
+ .ARM.attributes
+                0x000000ff       0x33 .\libNGL.a(LCD_MAL.o)
+ .ARM.attributes
+                0x00000132       0x33 .\libNGL.a(Graphics_Primitive.o)
+ .ARM.attributes
+                0x00000165       0x33 .\libNGL.a(LCD_HAL.o)
+ .ARM.attributes
+                0x00000198       0x33 .\libNGL.a(HX8352.o)
+ .ARM.attributes
+                0x000001cb       0x33 .\libNGL.a(SSD1289.o)
+ .ARM.attributes
+                0x000001fe       0x33 .\libNGL.a(R61581.o)
+
+.debug_frame    0x00000000      0xa00
+ .debug_frame   0x00000000       0x80 .objs\cmsis_boot\system_stm32f10x.o
+ .debug_frame   0x00000080       0x4c .objs\main.o
+ .debug_frame   0x000000cc      0x210 .objs\stm_lib\src\stm32f10x_gpio.o
+ .debug_frame   0x000002dc       0x48 .objs\cmsis_boot\startup\startup_stm32f10x_md.o
+ .debug_frame   0x00000324       0xb8 .\libNGL.a(LCD_GPIO.o)
+ .debug_frame   0x000003dc       0xf0 .\libNGL.a(LCD_MAL.o)
+ .debug_frame   0x000004cc      0x168 .\libNGL.a(Graphics_Primitive.o)
+ .debug_frame   0x00000634      0x180 .\libNGL.a(LCD_HAL.o)
+ .debug_frame   0x000007b4       0xc0 .\libNGL.a(HX8352.o)
+ .debug_frame   0x00000874       0xc4 .\libNGL.a(SSD1289.o)
+ .debug_frame   0x00000938       0xc8 .\libNGL.a(R61581.o)

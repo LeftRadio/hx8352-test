@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=HX8352_Test.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\HX8352_Test -TC:\CooCox\CoIDE\configuration\ProgramData\HX8352_Test/arm-gcc-link.ld -g -L..\..\.. -lngl">
+      <target file="HX8352_Test.elf" lastModified="14c06a662d9">
+         <source file="..\obj\system_stm32f10x.o" lastModified="14c06a65764"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="14c06a6587d"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14c06a65a12"/>
+         <source file="..\obj\main.o" lastModified="14c06a65b2b"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14c06a65d5d"/>
+         <source file="..\obj\misc.o" lastModified="14c06a65ea4"/>
+      </target>
+   </processor>
+</history>
